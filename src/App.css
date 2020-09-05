@@ -1,38 +1,57 @@
 .App {
+  font-family: "Old Standard TT", serif;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-transform: capitalize;
+  line-height: 10px;
+  margin-top: 8px;
+  text-align: left;
+}
+form {
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+}
+source {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  font-size: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-body {
+  color: #f4f6ff;
+  line-height: 20px;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  margin: 50px auto;
+  padding: 2px 15px 2px 0px;
+  border-radius: 3px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 50px;
+  font-weight: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weather-temperature img {
+  line-height: 50px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-temperature .units {
+  position: relative;
+  left: 60px;
+  font-size: 16px;
+  top: -70px;
 }
