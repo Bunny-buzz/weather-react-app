@@ -25,13 +25,13 @@ export default function Weather(props) {
               </h1>
               <div className="units">
                 <span className="float-right">
-                  <a href="#" id="celsius" className="active">
+                  <button href="#" id="celsius" className="active">
                     °C
-                  </a>{" "}
+                  </button>{" "}
                   |
-                  <a href="#" id="fahrenheit">
+                  <button href="#" id="fahrenheit">
                     °F
-                  </a>
+                  </button>
                 </span>
               </div>
             </div>
